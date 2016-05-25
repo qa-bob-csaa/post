@@ -7,7 +7,8 @@ public class BootStrap {
         System.out.println("Need to verify Internet connection");
         System.out.println("Need to call server for unique session ID");
         Login login = new Login();
-        login.main(sessionID);
+        login.start(sessionID);
+
 
     }
 }
